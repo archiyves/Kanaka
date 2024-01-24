@@ -1,0 +1,203 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    height: 100%;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+.navbar{
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    z-index: 999;
+    background-color: black;
+}
+
+.navbar .logo h1{
+    color: goldenrod;
+    cursor: pointer;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a{
+    display: block;
+    margin-left: 20px;
+    color: white;
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navbar .menu li .active{
+    border-bottom: 4px solid #ffd700;
+}
+
+.navbar .menu li .a:hover{
+    border-bottom: 4px solid #ffd700;
+}
+body{
+    padding: 100;
+    margin: 100;
+    
+}
+h1{
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 100%;
+    left: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: gainsboro;
+    
+}
+
+.slider{
+    width: 800px;
+    height: 500px;
+    background: url(Pngtre\ elegant\ ayy\ black\ and\ gold\ marble_13417195.jpg);
+    margin: 100px auto;
+    animation: slide 10s infinite;
+    
+}
+
+@keyframes slide{
+    25%{
+        background: url(casques11.2.jpg);
+    }
+    50%{
+        background: url(pc3.2.jpg);
+    }
+    75%{
+        background: url(Iphone\ 14.2.png);
+    }
+    100%{
+        background: url(pc5.2.jpg);
+    }
+}
+.content h2{
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+background-color: white;
+.produits_texte{
+    background-color: white;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 310;
+    margin-top: 40px;
+    margin-left: 90px;
+    color: black;
+    margin-top: 5%;
+    
+}
+
+.section_produits{
+    background-color: white;
+    color: black;
+    padding: 40px 5% ;
+}
+
+.produits{
+    background-color: white;
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+}
+
+.produits .carte{
+    background-color: white;
+    width: 310px;
+    color: black;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.produits .carte img{
+    background-color: white;
+    color: black;
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+    .produits .carte .desc{ 
+    padding: 5px 20px; 
+     opacity: 0.8; 
+}
+.produits .carte .titre{
+    background-color: white;
+    font-weight: 900;
+    font-size: 20px;
+    color: black;
+    padding: 0 20px;
+
+}
+.produits .carte .box{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2opx;
+}
+
+.produits .carte .prix{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.produits .carte .achat{
+    background-color: white;
+    font-size: 13px;
+    font-weight: 900;
+    color: black;
+    padding: 10px 18px;
+    border-radius: 1px solid #ffd700;
+
+}
+.produits .carte .box .achat:hover{
+    cursor: pointer;
+    background-color: gold ;
+    color: black;
+}
+
+footer{
+    background-color: white;
+    height: 10vh;
+
+}
+
+footer p{
+    text-align: center;
+    line-height: 10vh;
+}
+
+footer p a{
+    text-align: none;
+    color: gold;
+    font-weight: bold;
+}

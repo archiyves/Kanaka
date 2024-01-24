@@ -1,0 +1,17 @@
+p{
+    text-align: justify;
+    
+}
+body h1 a{
+    color: goldenrod;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background:white;
+    color: black;
+}
+button{
+    background: goldenrod;
+    color: black;
+}

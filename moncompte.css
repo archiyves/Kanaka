@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    height: 100%;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+.navbar{
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    z-index: 999;
+    background-color: black;
+}
+
+.navbar .logo h1{
+    color: goldenrod;
+    cursor: pointer;
+    background: black;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a{
+    display: block;
+    margin-left: 20px;
+    color: white;
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navbar .menu li .active{
+    border-bottom: 4px solid #ffd700;
+}
+
+.navbar .menu li .a:hover{
+    border-bottom: 4px solid #ffd700;
+}
+
+body{
+    background-color: gainsboro;
+}
